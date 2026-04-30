@@ -1,0 +1,15 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   GLASS
+   Peraa Design System — Glass component
+   Applies the glassmorphism surface style. Resolves to a solid neutral-800
+   card in dark mode and a translucent frosted surface in light mode.
+   Layout properties (width, padding, margin) are applied on the element itself.
+   ═══════════════════════════════════════════════════════════════════════════ */
+.peraa-glass {
+  background: var(--peraa-glass-bg);
+  border: 1px solid var(--peraa-glass-border);
+  border-radius: var(--peraa-glass-radius);
+  backdrop-filter: var(--peraa-glass-blur);
+  -webkit-backdrop-filter: var(--peraa-glass-blur);
+  box-shadow: var(--peraa-glass-shadow);
+}
